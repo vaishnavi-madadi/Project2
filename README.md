@@ -1,9 +1,9 @@
-Banking Customer Churn Prediction - 
+Project: Banking Customer Churn Prediction 
 
-Project Overview -
+Overview -
 The Banking Customer Churn Prediction project focuses on predicting whether a customer will churn or not. By analyzing historical customer data, I aim to create a machine learning model that can predict churn, enabling the bank to take proactive steps to retain valuable customers. The project uses various machine learning models and techniques, including data preprocessing, feature engineering, and model evaluation, to understand and predict customer behavior.
 
-Project Objective - The primary objectives of this project are to:
+Objective - The primary objectives of this project are to:
 Understand the factors that contribute to customer churn using data analysis and feature importance.
 Build machine learning models to predict customer churn with high accuracy.
 Evaluate and compare model performance using appropriate metrics such as accuracy, AUC, and confusion matrices.
@@ -51,24 +51,24 @@ AdaBoost Classifier
 Used cross-validation to evaluate model performance and avoided overfitting.
 
 Questions Explored - 
-Which factors contribute most to customer churn?
-Can we predict customer churn with a high degree of accuracy?
-How do different machine learning models compare in terms of performance for this problem?
-What actions can the bank take to retain high-risk customers based on model predictions?
+1. Which factors contribute most to customer churn?
+2. Can we predict customer churn with a high degree of accuracy?
+3. How do different machine learning models compare in terms of performance for this problem?
+4. What actions can the bank take to retain high-risk customers based on model predictions?
 
 Key Insights -
-Model Performance: Among the models tested, Random Forest and XGBoost performed the best, with Random Forest achieving an AUC of 0.7151.
-Feature Importance: Key features influencing churn include:
-Balance: A low account balance is a significant factor in predicting churn.
-Age: Older customers were less likely to churn.
-IsActiveMember: Active members were less likely to churn.
-Geography: Customers from Spain had a higher likelihood of churning compared to other countries.
-Customer Segments: Customers with fewer products, lower balances, and less active accounts are more likely to churn.
+1. Model Performance: Among the models tested, Random Forest and XGBoost performed the best, with Random Forest achieving an AUC of 0.7151.
+2. Feature Importance: Key features influencing churn include:
+3. Balance: A low account balance is a significant factor in predicting churn.
+4. Age: Older customers were less likely to churn.
+5. IsActiveMember: Active members were less likely to churn.
+6. Geography: Customers from Spain had a higher likelihood of churning compared to other countries.
+7. Customer Segments: Customers with fewer products, lower balances, and less active accounts are more likely to churn.
 
 Visualizations -
-ROC Curves: Showed the trade-off between true positive and false positive rates.
-Feature Importance Plot: Visualized the importance of each feature in predicting churn.
-Confusion Matrices: Analyzed the distribution of correct and incorrect predictions.
+1. ROC Curves: Showed the trade-off between true positive and false positive rates.
+2. Feature Importance Plot: Visualized the importance of each feature in predicting churn.
+3. Confusion Matrices: Analyzed the distribution of correct and incorrect predictions.
 
 Limitations -
 Imbalanced Data: The dataset has a class imbalance (more non-churned than churned customers), which may affect the performance of models, particularly the recall of churned customers.
